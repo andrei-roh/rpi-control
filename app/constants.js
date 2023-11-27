@@ -1,0 +1,10 @@
+export const HTTP_PORT = 8181;
+export const LCD_I2C_ADDRESS = 0x27;
+export const I2C_BUS_NUMBER = 1;
+export const LCD_BACKLIGHT = 0x08;
+export const LCD_REGISTER_SELECT_CMND = 0x00;
+export const LCD_REGISTER_SELECT_CHAR = 0x01;
+export const LCD_ENABLE = 0x04;
+export const LCD_LINE1 = 0;
+export const LCD_LINE2 = 1;
+export const STRING_LENGTH = 16;
