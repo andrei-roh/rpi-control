@@ -14,9 +14,9 @@ describe('AppController', () => {
   });
 
   describe('getHello', () => {
-    it(`should return "${Message.Start}"`, () => {
+    it(`should return "${Message.ServiceStart}"`, () => {
       const appController = app.get(AppController);
-      expect(appController.getHello()).toBe(Message.Start);
+      expect(appController.getHello()).toBe(Message.ServiceStart);
     });
   });
 });
